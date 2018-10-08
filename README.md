@@ -16,7 +16,7 @@ $ cd ManianguaVPN
 
 $ python2 Maniangua.py
 ```
-## ***Installation Linux*** :
+## ***Installation Windows*** :
 Still coding the bash way 
 
 ## ***Screenshot*** :
