@@ -20,4 +20,4 @@ $ python2 Maniangua.py
 Still coding the bash way 
 
 ## ***Screenshot*** :
-<img src="Capture1.PNG" width="100%"/>
+<img src="Capture1.PNG" width="70%"></img>
