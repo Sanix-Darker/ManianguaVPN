@@ -3,8 +3,6 @@
 [![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
 [![Build](https://img.shields.io/badge/Supported_OS-Ubuntu,Kali,Arch,Parrot-blue,Android.svg)]()
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-# ***Author*** : Sanix-darker
- ![](https://i.imgur.com/lBPbWxo.png)
  
 # ***Description***: 
 
