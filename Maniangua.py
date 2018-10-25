@@ -20,11 +20,9 @@ def clear():
         pass
 
 def banner():
-	print("""\033[92m                                        
-              (O)
-              <W             \033[92m Maniangua - Automated VPN Connect  
-              (O)                Author:\033[91m Sanix-darker \033[92m       
-\033[93m                                  github.com/joker25000                                                                                                                                                                                       
+	print("""\033[92m Maniangua - Automated VPN Connect  
+				Author:\033[91m Sanix-darker \033[92m       
+				\033[93m github.com/Sanix-darker                                                                                                                                                                                   
 """)
 def command():
 	os.system('clear')
@@ -55,18 +53,18 @@ def unzip():
 def getpass():
 	print '\n \033[94m\n[+]\033[94m ---> Getting New Password\n\n'
 	global user, passwd
-	user = 'vpnbook'
-	try:
-		openUrl = urllib2.urlopen('http://www.vpnbook.com/freevpn')
-	except urllib2.URLError:
-		exit('Verify that you are connected to the Internet')
-	kader = openUrl.read()
-	joker = '''<li>Password: <strong>(.+?)</strong></li>'''
-	dz = re.findall(joker, kader)
+	# user = 'vpnbook'
+	# try:
+	# 	openUrl = urllib2.urlopen('http://www.vpnbook.com/freevpn')
+	# except urllib2.URLError:
+	# 	exit('Verify that you are connected to the Internet')
+	# kader = openUrl.read()
+	# joker = '''<li>Password: <strong>(.+?)</strong></li>'''
+	# dz = re.findall(joker, kader)
 
-	if dz:
-		passwd = dz[0]
-	passwd = '5e38t23'
+	# if dz:
+	# 	passwd = dz[0]
+	# passwd = '5e38t23'
 	print '''
 		\t\033[94m\n[+]\033[91m---> Username: {0}
 		\t\033[94m\n[+]\033[93m---> Password: {1}
