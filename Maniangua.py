@@ -84,8 +84,8 @@ def connect():
 def main():
 	banner()
 	unzip()
-	getpass()
 	connect()
+	getpass()
 	exit()
 def exit():
 	os.system('exit')
