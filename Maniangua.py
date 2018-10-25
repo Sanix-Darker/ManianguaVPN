@@ -53,7 +53,8 @@ def unzip():
 def getpass():
 	print '\n \033[94m\n[+]\033[94m ---> Getting New Password\n\n'
 	global user, passwd
-	# user = 'vpnbook'
+	user = 'vpnbook'
+	passwd = '5e38t23'
 	# try:
 	# 	openUrl = urllib2.urlopen('http://www.vpnbook.com/freevpn')
 	# except urllib2.URLError:
