@@ -6,7 +6,11 @@
  
 # ***Description***: 
 
-Simple script python To make a connection VPN 
+Simple script python To make a VPN's connexion to vpnbook
+
+# What is done:
+
+- ManianguaVPN will 
 
 ## ***Installation Linux*** :
 ```shell

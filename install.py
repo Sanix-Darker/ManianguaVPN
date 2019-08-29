@@ -1,28 +1,3 @@
-#!/usr/bin/env python
-#
-# Author  : Sanix-darker
-# ManianguaVPN - Automated VPN Connect
-
-import os
-import re
-import sys 
-import time
-import urllib2
-
-def clear():
-    if system() == 'Linux':
-        os.system("clear")
-    if system() == 'Windows':
-        os.system('cls')
-        os.system('color a')
-    else:
-        pass
-
-
-def banner():
-	print("""\033[92m Maniangua - Automated VPN Connect  
-				Author:\033[91m Sanix-darker \033[92m       
-				\033[93m github.com/Sanix-darker """)
 def command():
 	os.system('clear')
 	os.system('rm -f vpnbook-us1-*')
@@ -79,15 +54,3 @@ def connect():
 	os.system('sudo apt-get update')
 	os.system('sudo apt-get install openvpn')
 	os.system('openvpn --config vpnbook-us1-tcp80.ovpn')
-
-def main():
-	banner()
-	unzip()
-	connect()
-	getpass()
-	exit()
-def exit():
-	os.system('exit')
-	print "\nCtrl + C -> Exiting!!"
-if __name__ == '__main__':
-	main()
