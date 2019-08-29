@@ -3,10 +3,12 @@
 [![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
 [![Build](https://img.shields.io/badge/Supported_OS-Ubuntu,Kali,Arch,Parrot-blue,Android.svg)]()
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
- 
+
+# Requirements
+
 # ***Description***: 
 
-Simple script python To make a VPN's connexion to vpnbook
+Simple script python To make a VPN's connexion to vpnbook.
 
 # What is done:
 
@@ -18,10 +20,8 @@ $ git clone https://github.com/Sanix-Darker/ManianguaVPN
 
 $ cd ManianguaVPN 
 
-$ python2 Maniangua.py
+$ python Maniangua.py
 ```
-## ***Installation Windows*** :
-Still coding the bash way 
 
 ## ***Screenshot*** :
-<img src="Capture1.PNG" width="70%"></img>
+<img src="Capture1.PNG" width="70%"/>
