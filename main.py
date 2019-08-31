@@ -3,6 +3,9 @@ import time, datetime
 from utils import *
 
 def main():
+	# First let autoremove all precedent vpnbook files
+	system("rm -rf vpnbook*")
+	system('sudo apt-get update')
 	present()
 	getRessources()
 	# We check if libpkcs11-helper1 is installed

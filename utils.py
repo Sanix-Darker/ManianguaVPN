@@ -76,7 +76,6 @@ def check_date_then_install(elt):
 
 def getRessources():
 	# Installing UnZip
-	# system('sudo apt-get update')
 	# We check if zip is installed
 	if check_installed_module("zip") == False:
 		system('sudo apt-get install zip')
