@@ -5,7 +5,7 @@ from utils import *
 def main():
 	# First let autoremove all precedent vpnbook files
 	system("rm -rf vpnbook*")
-	system('sudo apt-get update')
+	#system('sudo apt-get update')
 	present()
 	getRessources()
 	# We check if libpkcs11-helper1 is installed
@@ -19,6 +19,7 @@ def main():
 	present()
 	system("rm -rf test*")
 	print("[+] Starting to establish connection using openvpn...")
+	print("[+] Please visit: https://www.vpnbook.com/freevpn to get credentials such as username and password")
 	system('openvpn --config vpnbook-us1-tcp80.ovpn')
 
 if __name__ == '__main__':
